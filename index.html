@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="icon" href="folder_locked_fill.svg">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.min.css">
+
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+
+            <img class="imglogo" src="Logo.png" alt="logo">
+
+        </div>
+
+
+        <div class="container">
+            <div class="text"></div>
+           
+
+          </div>
+
+
+          <h1 class="titulo">Encriptador de <span class="texto-animado" data-text="textos">textos</span></h1>
+
+
+        <div class="container">
+            <div class="text"></div>
+          </div>
+        
+        
+    </header>
+    <main>
+        <section class="caja1">
+            <article class="campo-texto">
+                <textarea id="campo-entrada" class="campo" placeholder="Ingresa el texto aquí..."></textarea>
+                <p class="indicacion">Solo letras minúsculas y sin acentos</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            </article>
+            <div class="botones">
+                <button class="btn encryptar" id="encriptar">Encriptar</button>
+                <button class="btn desencriptar" id="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="caja2">
+            <div class="mensaje-vacio">
+                <img class="muñeco" src="Muneco.png" alt="">
+                
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+
+            </div>
+            <textarea id="campo-salida" class="campo"class="campo" placeholder="Ingresa el texto aquí..."></textarea>
+            <div class="botones">
+                <button id="copiar" class="copiar">Copiar mensaje</button>
+                <p id="mensaje-copiado">Mensaje copiado al portapapeles</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+        
+       
+
+
+
+
+
+
+    </footer>
+    
+    <footer class="footer">
+ 
+
+    <div class="redes-sociales">
+
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/albert.sadday.7">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/albertsadday">
+          <ion-icon name="logo-github"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/luis-alberto-izquierdo-rojas-3709bb205/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      
+    </ul>
+
+    <div class="skills">
+
+    
+
+    </ul>
+    <p>&copy;2024 Luis Alberto Izquierdo | All Rights Reserved</p>
+  </footer>
+  
+
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+    <script src="script.js" defer></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
+    
+</body>
+</html>

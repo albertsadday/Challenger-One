@@ -1,0 +1,227 @@
+/* Estilos generales */
+
+
+
+body {
+  font-family: 'Arial', sans-serif; /* Fuente futurista */
+  background-color: #f0f7fc; /* Color de fondo más claro */
+  color: #333; /* Color de texto oscuro */
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos del header */
+header {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo del header con transparencia */
+  padding: 20px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.titulo {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center; /* Centrar el texto */
+  color: #007bff; /* Color azul eléctrico */
+  animation: animacionTitulo 02s infinite alternate; /* Animación del título */
+}
+
+@keyframes animacionTitulo {
+  0% {
+      transform: scale(2);
+  }
+  100% {
+      transform: scale(1.2);
+  }
+}
+
+
+
+
+
+/* Text Scramble Effect */
+
+
+ 
+
+
+
+
+
+
+
+/* Estilos de las secciones */
+.caja1,.caja2 {
+  border-radius: 20px; /* Bordes redondeados */
+  margin-bottom: 20px;
+  padding: 20px; /* Espaciado interno */
+  background-color: #f0f7fc; /* Color de fondo */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra en azul */
+  transition: box-shadow 0.5s ease; /* Transición suave */
+  max-width: 600px; /* Ancho máximo de las cajas */
+  margin: 20px auto; /* Centrar horizontalmente y agregar espacio superior e inferior */
+  text-align: center; /* Centrar texto */
+}
+
+
+
+.caja2 {
+  border-radius: 20px; /* Bordes redondeados */
+  margin-bottom: 20px;
+  padding: 20px; /* Espaciado interno */
+  background-color: #f0f7fc; /* Color de fondo */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Sombra en azul */
+  transition: box-shadow 0.5s ease; /* Transición suave */
+  max-width: 600px; /* Ancho máximo de las cajas */
+  margin: 20px auto; /* Centrar horizontalmente y agregar espacio superior e inferior */
+  text-align: center; /* Centrar texto */
+}
+
+
+
+
+
+
+
+
+
+
+.caja1:hover, .caja2:hover {
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.8); /* Efecto de iluminación en azul al pasar el mouse */
+}
+
+/* Estilos del campo de texto */
+.campo-texto {
+  margin-bottom: 20px; /* Espacio inferior */
+ 
+}
+
+.campo {
+  width: calc(100% - 20px); /* Ancho completo con espacio lateral */
+  padding: 10px; /* Espaciado interno */
+  border-radius: 15px; /* Bordes redondeados */
+  border: 1px solid #ccc;
+  background-color: #eff3f9; /* Color de fondo */
+  color: #333; /* Color de texto oscuro */
+  resize: none; /* Evitar redimensionamiento */
+  display: block; /* Cambiar a elemento de bloque */
+  margin: 0 auto 10px auto; /* Centrar horizontalmente y agregar espacio inferior */
+}
+
+.indicacion {
+  font-size: 14px;
+  margin-top: 5px; /* Espacio superior */
+}
+
+/* Estilos de los botones */
+.botones {
+  text-align: center; /* Centrar texto */
+}
+
+.btn, .caja2 button {
+  background-color: #007bff; /* Color azul eléctrico */
+  color: #fff;
+  border: none;
+  padding: 8px 16px; /* Espaciado interno de los botones */
+  border-radius: 10px; /* Bordes redondeados */
+  cursor: pointer;
+  transition: transform 0.5s ease; /* Efecto de transformación al pasar el mouse */
+  margin-right: 10px; /* Espacio derecho */
+}
+
+.btn:last-child, .caja2 button:last-child {
+  margin-right: 0; /* Eliminar espacio derecho para el último botón */
+}
+
+.btn:hover, .caja2 button:hover {
+  transform: scale(1.05); /* Aumentar tamaño al pasar el mouse */
+}
+
+/* Estilos del mensaje copiado */
+#mensaje-copiado {
+  display: none; /* Ocultar mensaje por defecto */
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos del footer */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
